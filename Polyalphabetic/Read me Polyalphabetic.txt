@@ -1,0 +1,24 @@
+Polyalphabetic Ciphers
+
+In this project we have just created one .cpp file(PolyalphabeticCipher.cpp) with a main function and 3 functions M1, M2 and M3 for different encryption technique according to the requirement specification. These methods are called in cyclic order M2,M3,M2,M1,M3.
+
+In this project we are reading the plaintext line by line, and storing each character into a vector(text).
+
+A vector(method) of the size of the vector(text) is created which stores M1, M2 and M3 in cyclic order.
+
+Now considering vector(method) each character in vector(text) is encrypted and stored into the file.
+
+How to run the programe in ranger
+1. make
+2. ./proj2
+3. For Encryption press 1, For Decryption press 2.
+4. if you enter 1, the program will read file plaintxt.text (input) and store the encrypted data in ciphertext.txt (output).
+5. if you enter 2, the program will read file ciphertext.txt (input) and store the decrypted data in decrypttext.txt (output).
+6. If input file is not present the program will be aborted
+7. If the input file contains spaces or special characters the program will store it as it is.
+8. The program reads new line as well
+
+Source code: PolyalphabeticCipher.cpp, PolyalphabeticCipher.o, makefile
+Executable: proj2
+Input file:plaintext.txt (encryption), ciphertext.txt (decryption)
+	

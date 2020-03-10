@@ -1,0 +1,49 @@
+In this program 
+1. We are randomly generting two prime numbers p and q and making sure both the numbers are not same (Method: isPrime).
+2. We are calculating phi, n, e and d respectively.
+3. Even e is randomly selected from the set of possible values
+
+Our project creates private and public key and stores it into a text file.
+Our encryption and decryption runs fine.
+
+For encryption, we are converting the character into its ascii decimal value, and than using public key to encrypt the decimal value into another number.
+
+For decryption, we are decrypting the number into its decimal value using the private key. We are then converting the decimal value into its character.
+
+
+Look for executables and code (.cpp and .h files) in folder "RSA_Proj1"
+
+Step to run on ranger
+1. make
+2. ./RSA
+3. Select from the given 5 options
+The 5 options are
+	1. Type 1 to generate Public and Private Keys. 
+	Both private and public key will be generated, displayed and stored in text file.
+	OutPut of this step - (a). Key.txt - This file will be written with public and 	private keys.
+
+	2. Type 2 to generate keys and encrypt text using the generated keys. You will have to write your text in plaintext.txt file 		before doing this. Error will be generated if file not found.
+	
+	Encrypted text, private and public key will be generated, displayed and stored in text file.
+	OutPut of this step would be two files 
+	 (a). cipherText.txt - This file will be written with cipher text. 
+	 (b). Key.txt        - This file will be written with public and private keys.
+
+	3. Type 3 to encrypt text. You will have provide public key or private key for encryption. The text in plaintext.txt is encrypted and stored 	in cipherText.txt
+	 OutPut of this step - (a). cipherText.txt - This file will be written with cipher text.
+
+	4. Type 4 to decrypt. You will have to provide private key or public key for decryption. The text in ciphertext.txt is decrypted and stored 		in decrypt.txt
+	  OutPut of this step -   (a). decrypt.txt - This file will be written with cipher text.
+
+	5. Type 0 to exit.
+
+
+I have completed and tested the project as per requirement. 
+
+Source code: makefile, AlgoImplementation.cpp, AlgoImplementation.h, AlgoImplementation.o, CyberSecurityProjectRSA.cpp, CyberSecurityProjectRSA.o, FileHandler.cpp, FileHandler.h, FileHandler.o
+Executable : RSA
+Input file: plaintext.txt (Encryption), cipherText.txt (Decryption)
+Output file: Key (option1), decrypt.txt 
+
+
+

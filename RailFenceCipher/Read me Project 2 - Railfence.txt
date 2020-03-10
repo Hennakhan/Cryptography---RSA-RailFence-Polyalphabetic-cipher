@@ -1,0 +1,25 @@
+Railfence Ciphers
+
+In this project we have just created 3 file (RailFenceCipher.cpp, EncryptDecrypt.cpp, EncryptDecrypt.h) 
+
+In this project we are reading the plaintext line by line, and storing each character into a vector(text).
+
+This vector is than sent as parameter to encryption function for encryption and decryption function for decryption
+
+
+How to run the programe in ranger
+1. make
+2. ./Rail
+3. For Encryption press 1, For Decryption press 2.
+4. if you enter 1, the program will read file plaintxt.text (input) and store the encrypted data in ciphertext.txt (output).
+5. if you enter 2, the program will read file ciphertext.txt (input) and store the decrypted data in decrypttext.txt (output).
+6. If input file is not present the program will be aborted
+7. If the input file contains spaces or special characters the program will store it as it is. File should not have *.
+8. The program reads new line as well
+9. The program prompts the user to enter depth 
+10. The message is then encrypted/decrypted respectively
+
+Source code: RailFenceCipher.cpp, EncryptDecrypt.cpp, EncryptDecrypt.h, makefile
+Executable: Rail
+Input file:plaintext.txt (encryption), ciphertext.txt (decryption)
+	
